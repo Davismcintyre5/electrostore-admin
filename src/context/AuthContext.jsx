@@ -48,7 +48,6 @@ export const AuthProvider = ({ children }) => {
     const res = await apiLogin(email, password)
     const { token, user, requiresPasswordChange } = res.data
 
-    // Check role
     if (!ALLOWED_ROLES.includes(user.role)) {
       throw new Error('You are not authorized to access the admin panel')
     }
