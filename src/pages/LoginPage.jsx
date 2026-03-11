@@ -19,7 +19,7 @@ const LoginPage = () => {
         navigate('/dashboard')
       }
     } catch (err) {
-      setError(err.response?.data?.message || 'Login failed')
+      setError(err.message || 'Login failed')
     }
   }
 
