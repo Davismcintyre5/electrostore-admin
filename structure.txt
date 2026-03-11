@@ -1,0 +1,67 @@
+admin/
+├── public/
+│   └── index.html
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Header.jsx
+│   │   │   ├── Sidebar.jsx
+│   │   │   ├── Layout.jsx
+│   │   │   └── ProtectedRoute.jsx
+│   │   ├── products/
+│   │   │   ├── ProductList.jsx
+│   │   │   └── ProductForm.jsx
+│   │   ├── promos/
+│   │   │   ├── PromoList.jsx
+│   │   │   └── PromoForm.jsx
+│   │   ├── orders/
+│   │   │   ├── OrderList.jsx
+│   │   │   └── OrderDetails.jsx
+│   │   ├── transactions/
+│   │   │   └── TransactionList.jsx
+│   │   ├── customers/
+│   │   │   └── CustomerList.jsx
+│   │   ├── users/
+│   │   │   ├── UserList.jsx
+│   │   │   └── UserForm.jsx
+│   │   ├── reports/
+│   │   │   ├── SalesReport.jsx
+│   │   │   └── TopProducts.jsx
+│   │   ├── settings/
+│   │   │   └── SettingsForm.jsx
+│   │   └── notifications/
+│   │       └── NotificationList.jsx
+│   ├── pages/
+│   │   ├── LoginPage.jsx
+│   │   ├── DashboardPage.jsx
+│   │   ├── ProductsPage.jsx
+│   │   ├── PromosPage.jsx
+│   │   ├── OrdersPage.jsx
+│   │   ├── TransactionsPage.jsx
+│   │   ├── CustomersPage.jsx
+│   │   ├── UsersPage.jsx
+│   │   ├── SettingsPage.jsx
+│   │   ├── NotificationsPage.jsx
+│   │   └── ReportsPage.jsx
+│   ├── services/
+│   │   ├── api.js
+│   │   └── auth.js
+│   ├── context/
+│   │   └── AuthContext.jsx
+│   ├── hooks/
+│   │   ├── useAuth.js
+│   │   └── useDebounce.js
+│   ├── utils/
+│   │   └── helpers.js
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
+├── .env
+├── .env.example
+├── vite.config.js
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── README.md
